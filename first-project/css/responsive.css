@@ -1,0 +1,100 @@
+@media screen and (max-width: 768px) {
+    /* body{
+        background-color: blue;
+    } */
+
+    .wallet .wallet-info span {
+        font-size: 1rem;
+    }
+
+    .table thead {
+        display: none;
+    }
+
+    .sidebar {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 834px) {
+    /* body {
+        background-color: red;
+    } */
+
+    .sidebar {
+        width: 30%;
+    }
+
+    .wallet .wallet-info {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .wallet .coins-item {
+        gap: .65rem;
+        flex-direction: column;
+    }
+
+    .hero {
+        min-height: 34vh;
+    }
+
+    .hero .hero-left {
+        margin: auto;
+    }
+
+    .hero h2 {
+        font-size: 1.64rem;
+    }
+
+    .user-box .user-item {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    /* body {
+        background-color: yellow;
+    } */
+
+    .sidebar {
+        width: 40%;
+        transform: translateX(-100%);
+        transition: transform 0.24s linear;
+    }
+
+    .main-content {
+        width: 100%;
+        margin-left: 0;
+        max-width: 100%;
+        padding: 0 .24rem;
+    }
+
+    .sidebar-toggle {
+        display: flex !important;
+    }
+
+    .search {
+        width: 100%;
+        max-width: 80%;
+        min-width: 70%;
+    }
+
+    .wallet .wallet-info {
+        max-width: 100%;
+    }
+
+    .my-dashboard .wallet,
+    .my-dashboard .coins-wallet {
+        max-height: 30.99rem;
+        overflow-y: auto;
+    }
+
+    .bt-usd,
+    .user-box {
+        max-height: 30.55rem;
+        overflow-y: auto;
+    }
+}
